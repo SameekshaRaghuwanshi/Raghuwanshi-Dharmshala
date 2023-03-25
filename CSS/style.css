@@ -1,0 +1,211 @@
+ /* .wf-loading body {
+  visibility: hidden;
+} */
+body{
+  background-color: #ebfffa;
+  /* font-family: 'Noto Sans', sans-serif; */
+  /*font-display: */
+  /* font-family:  serif; 'Merriweather', */
+   /* font-family: 'Yatra One', cursive; */
+   /* font-family: 'Mukta', serif; */
+
+/*
+    font-weight: 400; */
+
+    margin: 0;
+
+}
+a{
+  color: #314e52;
+  text-decoration: none;
+}
+a:hover{
+  color: #f2a154;
+  text-decoration: none;
+}
+
+h1{
+
+  padding: 5px 15px 0;
+}
+h2{
+  color: #f2a154;
+}
+h4{
+    padding-left:  15px;
+}
+hr{
+  border-color: #fff;
+}
+p{
+  line-height: 1.5;
+}
+
+.aboutus{
+  color: #314e52;
+  text-align: center;
+}
+.dharamshala-name-h1{
+  Padding-left: 30px;
+  line-height: 1.2;
+
+}
+.dharamshala-name-h4{
+  Padding: 0 50px 10px;
+  line-height:1.4;
+
+}
+.home-heading{
+/*  position: absolute;
+  margin-left: 200px;*/
+  /* height:150px; */
+
+  padding-left: 180px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+
+  background-color: #f2a154;
+  color: #314e52;
+
+
+}
+
+.home-img{
+/* position:relative;
+right:0;
+border-radius: 8%; */
+/* float */
+float:right;
+width:30%;
+margin-left: 30px;
+margin-right: 30px;
+
+
+
+
+}
+.home-text{
+  /* position: relative;
+    left: 10px; */
+
+  padding-top: 30px;
+  padding-left: 20px;
+  /* padding-bottom: 30px; */
+
+
+     /* margin-left:  20px; */
+    margin-right:  30px;
+  /* padding: 30px 1px 30px 1px; */
+
+  text-align:left;
+}
+/* comment for testing row col  */
+/* .home-text{
+  margin-left: 220px;
+
+}
+
+.home-img{
+  position: absolute;
+  right: 0;
+
+
+}
+
+*/
+
+ .menu{
+     width: 200px;
+   /*
+  line-height:3;
+  position:relative;
+  top:inherit;
+  left: auto; */
+  /* height: 400px; */
+  /* width: 200px; */
+  /* background-color: #314e52; */
+  /* text-align: center;
+  display:inline-block; */
+
+   /* padding-top: 30px;  */
+
+
+}
+.menu-openlink{
+  color:#f2a154;
+}
+.menu-link{
+color: #ebfffa;
+}
+
+.main-logo{
+/*float: left;
+margin: 0 30px auto 0;*/
+position: absolute;
+ top: 30px;
+left: 45px;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+
+
+}
+/*testing*/
+@media (max-width:804px){
+  .main-logo{
+    position: relative;
+  }
+  .dharamshala-name-h1{
+    position:relative;
+    top: 40px;
+  }
+  .dharamshala-name-h4{
+    position: relative;
+    top: 40px;
+  }
+  .home-heading{
+    padding-left: 5px;
+    padding-bottom: 50px;
+
+  }
+}
+.main-contnr{
+
+  padding-left: 0;
+}
+.contnr-row{
+  position: relative;
+
+
+}
+.menu-1{
+    background-color: #314e52;
+    /* padding-left: 4px; */
+
+    text-align: center;
+    display:inline-block;
+    line-height:3;
+    position:relative;
+    top:inherit;
+    /* t2 */
+    width:185px;
+
+/*t2  */
+    /* position: relative;
+    top:inherit; */
+    /* position: relative;
+    top:inherit;
+    margin-left: 0; */
+
+}
+.btn-togl{
+  border-radius: 8%;
+}
+/* .contnr-col{
+  padding-right: 120px;
+} */
+.contnr-col{
+/* padding-right: 0; */
+
+}
